@@ -18,7 +18,6 @@ body {
     align-items: center;
     justify-content: center;
     height: 100vh;
-    width: 100%;
     background: no-repeat center/100% url("./img/giff.gif");
 }
 
@@ -95,7 +94,6 @@ body {
 
     body {
         height: 100vh;
-        width: 100%;
         line-height: 1.2;
         font-weight: 300;
         font-family: "Open Sans", sans-serif;
@@ -172,7 +170,6 @@ body {
 @media (max-width: 360px) {
     body {
         height: 100vh;
-        width: 100%;
         line-height: 1.2;
         font-weight: 300;
         font-family: "Open Sans", sans-serif;
