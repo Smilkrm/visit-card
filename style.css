@@ -18,11 +18,8 @@ body {
     align-items: center;
     justify-content: center;
     height: 100vh;
-    background: url(./img/giff.gif) no-repeat center center fixed;
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
-        -o-background-size: cover;
-        background-size: cover;
+    background: url("./img/giff.gif") center center no-repeat  fixed;
+    background-size: cover;
 }
 
 .profile-card {
@@ -104,10 +101,7 @@ body {
         display: flex;
         align-items: center;
         justify-content: center;
-        background: url(./img/giff.gif) no-repeat center center fixed;
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
-        -o-background-size: cover;
+        background: url("./img/giff.gif") center center no-repeat  fixed;
         background-size: cover;
     }
 
@@ -184,10 +178,7 @@ body {
         display: flex;
         align-items: center;
         justify-content: center;
-        background: url(./img/giff.gif) no-repeat center center fixed;
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
-        -o-background-size: cover;
+        background: url("./img/giff.gif") center center no-repeat  fixed;
         background-size: cover;
     }
 
