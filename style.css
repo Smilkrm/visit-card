@@ -18,7 +18,8 @@ body {
     align-items: center;
     justify-content: center;
     height: 100vh;
-    background: no-repeat center/100% url("./img/giff.gif");
+    width: 100%;
+    background: no-repeat center/100vh url("./img/giff.gif");
 }
 
 .profile-card {
@@ -92,17 +93,19 @@ body {
 
 @media(max-width: 640px) {
 
-    body{
+    body {
         height: 100vh;
+        width: 100%;
         line-height: 1.2;
         font-weight: 300;
         font-family: "Open Sans", sans-serif;
         display: flex;
         align-items: center;
         justify-content: center;
-        background: no-repeat center/100% url("./img/giff.gif");
+        background: no-repeat center/100vh url("./img/giff.gif");
     }
-    .profile-card{
+
+    .profile-card {
         background-color: #0d0db0b9;
         display: flex;
         flex-direction: column;
@@ -113,36 +116,37 @@ body {
         gap: 2.4rem;
         align-items: center;
     }
+
     .profile-picture {
         width: 15rem;
         border-radius: 50%;
     }
-    
+
     .profile-name-box {
         display: flex;
         flex-direction: column;
         align-items: center;
         gap: 0.4rem;
     }
-    
+
     .profile-name {
         color: #fff;
         font-size: 1.6rem;
         font-weight: 600;
     }
-    
+
     .profile-location {
         color: #eaff00;
         font-size: 1.2rem;
         font-weight: 300;
     }
-    
+
     .profile-information {
         color: #ffffff;
         font-size: 1.6rem;
         font-weight: 400;
     }
-    
+
     .social-links {
         display: flex;
         flex-direction: column;
@@ -150,4 +154,92 @@ body {
         width: 22.4rem;
     }
 
+    .social-link:link {
+        display: inline-block;
+        color: #ffffff;
+        text-decoration: none;
+        background-color: #7b00ff;
+        padding: 1rem;
+        text-align: center;
+        font-size: 1.2rem;
+        font-weight: 500;
+        transition: all 0.3s;
+        border-radius: 8px;
+    }
+
+}
+
+@media (max-width: 360px) {
+    body {
+        height: 100vh;
+        width: 100%;
+        line-height: 1.2;
+        font-weight: 300;
+        font-family: "Open Sans", sans-serif;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: no-repeat center/100vh url("./img/giff.gif");
+    }
+
+    .profile-card {
+        background-color: #0d0db0b9;
+        display: flex;
+        flex-direction: column;
+        max-width: 20.4rem;
+        padding: 2rem;
+        padding-top: 2rem;
+        border-radius: 1.2rem;
+        gap: 1.4rem;
+        align-items: center;
+    }
+
+    .profile-picture {
+        width: 8rem;
+        border-radius: 50%;
+    }
+
+    .profile-name-box {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 0.2rem;
+    }
+
+    .profile-name {
+        color: #fff;
+        font-size: 1rem;
+        font-weight: 600;
+    }
+
+    .profile-location {
+        color: #eaff00;
+        font-size: 0.8rem;
+        font-weight: 300;
+    }
+
+    .profile-information {
+        color: #ffffff;
+        font-size: 0.8rem;
+        font-weight: 400;
+    }
+
+    .social-links {
+        display: flex;
+        flex-direction: column;
+        gap: 1.6rem;
+        width: 12.4rem;
+    }
+
+    .social-link:link {
+        display: inline-block;
+        color: #ffffff;
+        text-decoration: none;
+        background-color: #7b00ff;
+        padding: 0.5rem;
+        text-align: center;
+        font-size: 0.8rem;
+        font-weight: 500;
+        border-radius: 8px;
+    }
 }
